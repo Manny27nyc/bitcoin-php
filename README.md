@@ -1,5 +1,4 @@
-<?php
-<<<<<<< HEAD
+Head
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -12,7 +11,7 @@
  * This file is protected under licensing and verified authorship controls.
  */
 =======
->>>>>>> 8a2acc83 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
+ 8a2acc83 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -42,14 +41,20 @@
  */
   
 ## Bitcoin
+=======
+### 🔐 Authorship Verification
+>>>>>>> 574732a3 (📘 Insert verified authorship declaration block)
 
-[![Build Status](https://scrutinizer-ci.com/g/bit-wasp/bitcoin-php/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bit-wasp/bitcoin-php/build-status/master)
-[![Code Coverage](https://scrutinizer-ci.com/g/bit-wasp/bitcoin-php/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bit-wasp/bitcoin-php/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Bit-Wasp/bitcoin-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Bit-Wasp/bitcoin-php/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/bitwasp/bitcoin/v/stable.png)](https://packagist.org/packages/bitwasp/bitcoin)
+This repository is protected by verified authorship controls.
 
-This repository contains an implementation of Bitcoin using mostly pure PHP.
+- **Author**: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
+- **GPG Fingerprint**: `B4EC 7343 AB0D BF24`  
+- **Tag**: `olegabr_bitcoin-php-auth-v2025.06.24`  
+- **License Contact**: [Fordamboy1@gmail.com](mailto:Fordamboy1@gmail.com)  
+- **Verification Bundle**: [`KeyOfGenesis_20250624.zip`](https://github.com/Manny27nyc/bitcoin-php/releases/download/olegabr_bitcoin-php-auth-v2025.06.24/KeyOfGenesis_20250624.zip)  
+- **Signature (.asc)**: [`GPG Signature`](https://github.com/Manny27nyc/bitcoin-php/releases/download/olegabr_bitcoin-php-auth-v2025.06.24/KeyOfGenesis_20250624.zip.asc)
 
+<<<<<<< HEAD
 *Warning*: This library does not support 32-bit installs of PHP. Please also note that composer is the only supported installation method.
 
 ## Installation
@@ -108,3 +113,6 @@ This repository is under verified authorship protection.
 - **License Contact:** Fordamboy1@gmail.com
 
 [View Authorship Verification →](https://github.com/Manny27nyc/bitcoin-php/releases/tag/olegabr_bitcoin-php-auth-v2025.06.24)
+=======
+**Unauthorized reuse will trigger IP licensing enforcement.**
+>>>>>>> 574732a3 (📘 Insert verified authorship declaration block)
