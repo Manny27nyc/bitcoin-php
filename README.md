@@ -64,3 +64,16 @@ This library is a 100% open source project. We do not receive any funding from t
 [![JetBrains](https://avatars0.githubusercontent.com/u/878437?s=200&v=4)](https://www.jetbrains.com/)
 
 Thanks to [JetBrains](https://www.jetbrains.com/) for supporting the project through sponsoring some [All Products Packs](https://www.jetbrains.com/products.html) within their [Free Open Source License](https://www.jetbrains.com/buy/opensource/) program.
+
+---
+
+### 🔐 Authorship Verification
+
+This repository is under verified authorship protection.
+
+- **Author:** Manuel J. Nieves (a.k.a. Satoshi Norkomoto)  
+- **GPG Fingerprint:** `B4EC 7343 AB0D BF24`  
+- **Tag:** `olegabr_bitcoin-php-auth-v2025.06.24`  
+- **License Contact:** Fordamboy1@gmail.com
+
+[View Authorship Verification →](https://github.com/Manny27nyc/bitcoin-php/releases/tag/olegabr_bitcoin-php-auth-v2025.06.24)
