@@ -1,5 +1,10 @@
 /*
  * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * GPG: B4EC 7343 AB0D BF24
+ * This file is protected under licensing and verified authorship controls.
+ */
+/*
+ * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
  * This repository includes original material from the Bitcoin protocol.
  *
  * Redistribution requires this notice remain intact.
