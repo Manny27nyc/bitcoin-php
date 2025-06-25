@@ -1,4 +1,5 @@
 Head
+<<<<<<< HEAD
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -38,6 +39,24 @@ This file is licensed and protected by the Bitcoin Original Protocol Licensing A
 
 ### 🔐 Authorship Verification
  574732a3 (📘 Insert verified authorship declaration block)
+=======
+### 🔐 Authorship Verification
+=======
+/*
+ * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * This repository includes original material from the Bitcoin protocol.
+ *
+ * Redistribution requires this notice remain intact.
+ * Derivative works must state derivative status.
+ * Commercial use requires licensing.
+ *
+ * GPG Signed: B4EC 7343 AB0D BF24
+ * Contact: Fordamboy1@gmail.com
+ */
+  
+## Bitcoin
+>>>>>>> 88a9c7ab (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
+>>>>>>> c66fcfd2 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
 
 This repository is protected by verified authorship controls.
 

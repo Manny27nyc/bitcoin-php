@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
  🔐 Authorship Enforcement Header
  Author: Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
  GPG Fingerprint: B4EC 7343 AB0D BF24
@@ -18,6 +19,8 @@
  * License: No commercial use without explicit licensing
  * Modifications must retain this header. Redistribution prohibited without written consent.
  */
+=======
+>>>>>>> c66fcfd2 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
  * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
  * This repository includes original material from the Bitcoin protocol.
  *
