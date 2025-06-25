@@ -1,4 +1,4 @@
- HEAD
+ ed0a69d5 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -10,9 +10,15 @@
  * GPG: B4EC 7343 AB0D BF24
  * This file is protected under licensing and verified authorship controls.
  */
+
+ HEAD
 
  (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
 
+
+ 8a2acc83 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
+ ed0a69d5 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
+
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -24,9 +30,7 @@
  * GPG: B4EC 7343 AB0D BF24
  * This file is protected under licensing and verified authorship controls.
  */
-=======
-<?php
->>>>>>> a527bbcb (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
+  a527bbcb (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343 AB0D BF24))
 /*
  * 📜 Verified Authorship Notice
  * Copyright (c) 2008–2025 Manuel J. Nieves (Satoshi Norkomoto)
@@ -38,8 +42,7 @@
  * GPG: B4EC 7343 AB0D BF24
  * This file is protected under licensing and verified authorship controls.
  */
-=======
->>>>>>> c66fcfd2 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
+ c66fcfd2 (🔐 Lockdown: Verified authorship — Manuel J. Nieves (B4EC 7343))
 /*
  * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
  * GPG: B4EC 7343 AB0D BF24
@@ -56,6 +59,7 @@
  * GPG Signed: B4EC 7343 AB0D BF24
  * Contact: Fordamboy1@gmail.com
  */
+
 # Types used in the library
 
 The library offers an object oriented interface, so functions are type-hinted where appropriate. 
