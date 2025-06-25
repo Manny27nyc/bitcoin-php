@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * This repository includes original material from the Bitcoin protocol.
+ *
+ * Redistribution requires this notice remain intact.
+ * Derivative works must state derivative status.
+ * Commercial use requires licensing.
+ *
+ * GPG Signed: B4EC 7343 AB0D BF24
+ * Contact: Fordamboy1@gmail.com
+ */
+<?php
+
+declare(strict_types=1);
+
+namespace BitWasp\Bitcoin\Key\KeyToScript\Decorator;
+
+use BitWasp\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
+use BitWasp\Bitcoin\Key\KeyToScript\ScriptAndSignData;
+use BitWasp\Bitcoin\Script\P2shScript;
+use BitWasp\Bitcoin\Script\ScriptType;
+use BitWasp\Bitcoin\Transaction\Factory\SignData;
+
+class P2shScriptDecorator extends ScriptHashDecorator
+{
+    /**
+     * @var array
+     */
+    protected $allowedScriptTypes = [
+        ScriptType::MULTISIG,
+        ScriptType::P2PKH,
+        ScriptType::P2PK,
+        ScriptType::P2WKH,
+    ];
+
+    /**
+     * @var string
+     */
+    protected $decorateType = ScriptType::P2SH;
+
+    /**
+     * @param KeyInterface ...$keys
+     * @return ScriptAndSignData
+     * @throws \BitWasp\Bitcoin\Exceptions\P2shScriptException
+     */
+    public function convertKey(KeyInterface ...$keys): ScriptAndSignData
+    {
+        $redeemScript = new P2shScript($this->scriptDataFactory->convertKey(...$keys)->getScriptPubKey());
+        return new ScriptAndSignData(
+            $redeemScript->getOutputScript(),
+            (new SignData())
+                ->p2sh($redeemScript)
+        );
+    }
+}

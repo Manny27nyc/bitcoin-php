@@ -1,0 +1,35 @@
+/*
+ * Copyright (c) 2008–2025 Manuel J. Nieves (a.k.a. Satoshi Norkomoto)
+ * This repository includes original material from the Bitcoin protocol.
+ *
+ * Redistribution requires this notice remain intact.
+ * Derivative works must state derivative status.
+ * Commercial use requires licensing.
+ *
+ * GPG Signed: B4EC 7343 AB0D BF24
+ * Contact: Fordamboy1@gmail.com
+ */
+<?php
+
+declare(strict_types=1);
+
+namespace BitWasp\Bitcoin\Tests\Network\Networks;
+
+use BitWasp\Bitcoin\Network\Networks\Bitcoin;
+use BitWasp\Bitcoin\Tests\AbstractTestCase;
+
+class BitcoinTest extends AbstractTestCase
+{
+    public function testBitcoinNetwork()
+    {
+        $network = new Bitcoin();
+        $this->assertEquals('00', $network->getAddressByte());
+        $this->assertEquals('05', $network->getP2shByte());
+        $this->assertEquals('80', $network->getPrivByte());
+        $this->assertEquals('0488ade4', $network->getHDPrivByte());
+        $this->assertEquals('0488b21e', $network->getHDPubByte());
+        $this->assertEquals('d9b4bef9', $network->getNetMagicBytes());
+        $this->assertEquals("bc", $network->getSegwitBech32Prefix());
+        $this->assertEquals("Bitcoin Signed Message", $network->getSignedMessageMagic());
+    }
+}
