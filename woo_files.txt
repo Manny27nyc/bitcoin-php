@@ -1,0 +1,8 @@
+autoload.php
+ether-and-erc20-tokens-woocommerce-payment-gateway.php
+src/currencyconvertor.php
+src/gateway.php
+src/main.php
+src/paymentreceivedemail.php
+templates/emails/plain/pwe-payment-received.php
+templates/emails/pwe-payment-received.php

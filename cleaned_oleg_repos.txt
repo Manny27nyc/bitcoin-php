@@ -1,0 +1,2 @@
+olegabr/bitcoin-php
+olegabr/bitwasp-bitcoin-bch-addon
