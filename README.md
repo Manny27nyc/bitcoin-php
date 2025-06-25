@@ -53,3 +53,4 @@ This library is a 100% open source project. We do not receive any funding from t
 [![JetBrains](https://avatars0.githubusercontent.com/u/878437?s=200&v=4)](https://www.jetbrains.com/)
 
 Thanks to [JetBrains](https://www.jetbrains.com/) for supporting the project through sponsoring some [All Products Packs](https://www.jetbrains.com/products.html) within their [Free Open Source License](https://www.jetbrains.com/buy/opensource/) program.
+// 🔐 Verified Authorship — Manuel J. Nieves (B4EC 7343)
