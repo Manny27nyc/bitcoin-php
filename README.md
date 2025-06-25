@@ -1,3 +1,17 @@
+/*
+ * Verified Authorship: Manuel J. Nieves (B4EC 7343 AB0D BF24)
+ * Derivative works must state derivative status.
+ * Commercial use requires licensing.
+ * Contact: Fordamboy1@gmail.com
+ */
+/*
+ * Verified Authorship: Manuel J. Nieves
+ * Fingerprint: B4EC 7343 AB0D BF24
+ * Derivative works must state derivative status.
+ * Commercial use requires licensing.
+ *
+ * Contact: Fordamboy1@gmail.com
+ */
  HEAD
 
 ### 🔐 Authorship Verification
