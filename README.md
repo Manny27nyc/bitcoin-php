@@ -22,3 +22,4 @@ Any force-push, deletion, or tampering will trigger authorship licensing enforce
 
 - Signed by: **GPG Key B4EC 7343 AB0D BF24**
 - Verification Bundle: [`KeyOfGenesis_20250624.zip`](https://github.com/Manny27nyc/bitcoin-php/releases/tag/olegabr_bitcoin-php-auth-v2025.06.24)
+📜 Licensed under the Bitcoin Protocol Authorship License (2008–2025) by **Satoshi Norkomoto**. See `/docs/` for certificate.
