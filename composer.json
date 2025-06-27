@@ -1,6 +1,6 @@
 {
   "name": "manuelnieves/bitcoin-php",
-  "description": "Original PHP Bitcoin library for transactions, cryptographic signatures, ECDSA key operations, and RPC bindings — authored and maintained by Manuel J. Nieves.",
+  "description": "Original PHP Bitcoin library for transactions, cryptographic signatures, deterministic ECDSA keys, and RPC bindings — authored and maintained by Manuel J. Nieves.",
   "type": "library",
   "homepage": "https://github.com/Manny27nyc/bitcoin-php",
   "license": "MIT",
@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Bitcoin\\": "src/"
+      "BitWasp\\Bitcoin\\": "src/"
     },
     "files": [
       "src/Script/functions.php"
@@ -22,7 +22,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Bitcoin\\Tests\\": "tests/"
+      "BitWasp\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "require": {
@@ -40,7 +40,7 @@
     "bitwasp/bitcoinconsensus": "^3.0"
   },
   "suggest": {
-    "ext-secp256k1": "Install for fast & secure ECDSA curve operations",
-    "ext-bitcoinconsensus": "Use for high-assurance script validation"
+    "ext-secp256k1": "The secp256k1 extension for fast and secure ECDSA curve operations",
+    "ext-bitcoinconsensus": "The bitcoinconsensus extension for high-assurance script validation"
   }
 }
