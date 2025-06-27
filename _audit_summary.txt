@@ -1,0 +1,80 @@
+===== Audit Summary — Phase II =====
+
+▶️  _audit_summary.txt — 2 lines
+------------------------
+===== Audit Summary — Phase II =====
+
+▶️  _audit_summary.txt — 2 lines
+------------------------
+
+▶️  _bitwasp_hardcoded_refs.txt — 1483 lines
+------------------------
+src/Transaction/Transaction.php:namespace BitWasp\Bitcoin\Transaction;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Bitcoin;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Crypto\Hash;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Serializable;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializer;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Util\IntRange;
+src/Transaction/Transaction.php:use BitWasp\Bitcoin\Utxo\Utxo;
+src/Transaction/Transaction.php:use BitWasp\Buffertools\BufferInterface;
+src/Transaction/TransactionInput.php:namespace BitWasp\Bitcoin\Transaction;
+
+▶️  _exec_php_files.txt — 0 lines
+------------------------
+
+▶️  _filelist_src.txt — 266 lines
+------------------------
+src/Transaction/Transaction.php
+src/Transaction/TransactionInput.php
+src/Transaction/TransactionFactory.php
+src/Transaction/TransactionOutputInterface.php
+src/Transaction/TransactionInputInterface.php
+src/Transaction/OutPointInterface.php
+src/Transaction/Bip69/Bip69.php
+src/Transaction/SignatureHash/SigHashInterface.php
+src/Transaction/SignatureHash/V1Hasher.php
+src/Transaction/SignatureHash/TxSigHashSerializer.php
+
+▶️  _filelist_tests.txt — 176 lines
+------------------------
+tests/Base58Test.php
+tests/Transaction/TransactionOutputTest.php
+tests/Transaction/OutPointTest.php
+tests/Transaction/TransactionTest.php
+tests/Transaction/Bip69/Bip69Test.php
+tests/Transaction/Mutator/InputMutatorTest.php
+tests/Transaction/Mutator/InputCollectionMutatorTest.php
+tests/Transaction/Mutator/TxMutatorTest.php
+tests/Transaction/Mutator/OutputCollectionMutatorTest.php
+tests/Transaction/Mutator/OutputMutatorTest.php
+
+▶️  _orphan_tests.txt — 971 lines
+------------------------
+tests/AbstractTestCase.php:Bitcoin\Block\Block;
+tests/AbstractTestCase.php:Bitcoin\Block\BlockFactory;
+tests/AbstractTestCase.php:Bitcoin\Block\BlockInterface;
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\EcAdapterFactory;
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter
+tests/AbstractTestCase.php:Bitcoin\Math\Math;
+tests/AbstractTestCase.php:Bitcoin\Script\Interpreter\Interpreter;
+tests/AbstractTestCase.php:Bitcoin\Script\Interpreter\InterpreterInterface;
+tests/AbstractTestCase.php:Bitcoin\Tests;
+
+▶️  _src_namespaces.txt — 0 lines
+------------------------
+
+▶️  _tests_classes.txt — 971 lines
+------------------------
+tests/AbstractTestCase.php:Bitcoin\Block\Block;
+tests/AbstractTestCase.php:Bitcoin\Block\BlockFactory;
+tests/AbstractTestCase.php:Bitcoin\Block\BlockInterface;
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\EcAdapterFactory;
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter
+tests/AbstractTestCase.php:Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter
+tests/AbstractTestCase.php:Bitcoin\Math\Math;
+tests/AbstractTestCase.php:Bitcoin\Script\Interpreter\Interpreter;
+tests/AbstractTestCase.php:Bitcoin\Script\Interpreter\InterpreterInterface;
+tests/AbstractTestCase.php:Bitcoin\Tests;
+
