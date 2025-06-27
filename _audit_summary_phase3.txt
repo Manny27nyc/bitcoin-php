@@ -1,0 +1,24 @@
+===== Audit Summary — Phase III =====
+
+▶️  _phase3_all_php.txt — 266 lines
+------------------------
+src/Transaction/Transaction.php
+src/Transaction/TransactionInput.php
+src/Transaction/TransactionFactory.php
+src/Transaction/TransactionOutputInterface.php
+src/Transaction/TransactionInputInterface.php
+src/Transaction/OutPointInterface.php
+src/Transaction/Bip69/Bip69.php
+src/Transaction/SignatureHash/SigHashInterface.php
+src/Transaction/SignatureHash/V1Hasher.php
+src/Transaction/SignatureHash/TxSigHashSerializer.php
+
+▶️  _phase3_nonamespaces.txt — 0 lines
+------------------------
+
+▶️  _phase3_noobjects.txt — 0 lines
+------------------------
+
+▶️  _src_unknown_php.txt — 0 lines
+------------------------
+
