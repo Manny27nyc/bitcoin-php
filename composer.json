@@ -1,46 +1,46 @@
 {
-  "name": "olegabr/bitcoin",
-  "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
+  "name": "manuelnieves/bitcoin-php",
+  "description": "Original PHP Bitcoin library for transactions, cryptographic signatures, ECDSA key operations, and RPC bindings — authored and maintained by Manuel J. Nieves.",
   "type": "library",
-  "homepage": "https://github.com/olegabr/bitcoin-php",
-  "license": "Unlicense",
+  "homepage": "https://github.com/Manny27nyc/bitcoin-php",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Thomas Kerin",
-      "homepage": "https://thomaskerin.io",
-      "role": "Author"
+      "name": "Manuel J. Nieves",
+      "email": "Fordamboy1@gmail.com",
+      "role": "Author",
+      "homepage": "https://github.com/Manny27nyc"
     }
   ],
   "autoload": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\": "src/"
+      "Bitcoin\\": "src/"
     },
-    "files": ["src/Script/functions.php"]
+    "files": [
+      "src/Script/functions.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\Tests\\": "tests/"
+      "Bitcoin\\Tests\\": "tests/"
     }
   },
   "require": {
-    "php-64bit": "^7.0|^8.0",
-    "pleonasm/merkle-tree": "1.0.0",
-    "composer/semver": "^1.4.0|^3.2.0",
-    "lastguest/murmurhash": "v2.1.1",
+    "php": "^8.0",
+    "pleonasm/merkle-tree": "^1.0",
+    "composer/semver": "^3.2",
     "mdanter/ecc": "^0.5.0",
     "bitwasp/buffertools": "^0.5.0",
     "bitwasp/bech32": "^0.0.1"
   },
-  "suggest": {
-    "ext-secp256k1": "The secp256k1 library for fast and safe elliptic curve operations",
-    "ext-bitcoinconsensus": "The bitcoinconsensus library for safest possible script verification"
-  },
   "require-dev": {
-    "ext-json": "*",
-    "phpunit/phpunit": "^5.4.0",
-    "squizlabs/php_codesniffer": "^2.0.0",
-    "nbobtc/bitcoind-php": "v2.0.2",
-    "bitwasp/secp256k1-php": "^v0.2.0",
-    "bitwasp/bitcoinconsensus": "v3.0.0"
+    "phpunit/phpunit": "^9.6",
+    "squizlabs/php_codesniffer": "^3.7",
+    "bitwasp/secp256k1-php": "^0.2.0",
+    "bitwasp/bitcoinconsensus": "^3.0"
+  },
+  "suggest": {
+    "ext-secp256k1": "Install for fast & secure ECDSA curve operations",
+    "ext-bitcoinconsensus": "Use for high-assurance script validation"
   }
 }
